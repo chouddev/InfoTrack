@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-11T17:09:07 AEDT" name="Default suite" finished-at="2022-03-11T17:09:54 AEDT" duration-ms="46878">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runners.testng@71075444]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2022-03-11T17:09:07 AEDT" name="Default test" finished-at="2022-03-11T17:09:54 AEDT" duration-ms="46878">
+      <class name="Runners.testng">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:Runners.testng@71075444]" started-at="2022-03-11T17:09:07 AEDT" name="setUpClass" finished-at="2022-03-11T17:09:07 AEDT" duration-ms="363" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@23811a09]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runners.testng@71075444]" started-at="2022-03-11T17:09:07 AEDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-11T17:09:21 AEDT" duration-ms="13401" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check the Search bar in the Wikipedia Page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Verification of the Wikipedia page]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runners.testng@71075444]" started-at="2022-03-11T17:09:21 AEDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-11T17:09:31 AEDT" duration-ms="10097" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check that the home page has section In the news"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Verification of the Wikipedia page]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runners.testng@71075444]" started-at="2022-03-11T17:09:31 AEDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-11T17:09:43 AEDT" duration-ms="12440" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check that in the logo Wikipedia is clicable"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Verification of the Wikipedia page]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runners.testng@71075444]" started-at="2022-03-11T17:09:43 AEDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-11T17:09:54 AEDT" duration-ms="10468" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check the count of the sister projects"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Verification of the Wikipedia page]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Runners.testng@71075444]" started-at="2022-03-11T17:09:54 AEDT" name="tearDownClass" finished-at="2022-03-11T17:09:54 AEDT" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Runners.testng -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
